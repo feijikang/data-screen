@@ -12,7 +12,6 @@ export default {
   },
   methods: {
     getTopLeftCanvas() {
-      // var myChart = document.getElementsById('sellAnalyse');
       var myChart = this.$echarts.init(document.getElementById("sellAnalyse"));
       var option = {
         darkMode:true,

@@ -35,6 +35,11 @@ export default {
   components: {
     bg,
   },
+  data(){
+    return {
+      
+    }
+  },
   methods: {
     // 跳转到首页
     toHome() {
@@ -225,18 +230,21 @@ input:-webkit-autofill{
   -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
   box-shadow: 0 0 0px 1000px transparent inset !important;
   background-color: transparent;
-  background-image: none;
+  background-image: none; 
   transition: background-color 50000s ease-in-out 0s;
 }
 
-/* input:-webkit-autofill {
-     box-shadow: 0 0 0px 1000px $bg inset !important;
-     -webkit-text-fill-color: $cursor !important;
+input:-webkit-autofill {
+     box-shadow: 0 0 0px 1000px  inset !important;
+     -webkit-text-fill-color: #000 !important;
+}
+/* 
 
-     feijikang  nizaina woxuyaoni  niyigerenzaiwaimianguodehaoma jintian 
-     yeshichongmanxiwangdeyitian  zaizhegeshijie zhiyou ni zijicainengzhengjiuziji 
-     suoyijideanshsichifan ranhaohaohaoxuexi  chucizhiwai yeyaobashenbiandegongzuo
-     jingzhunzhizuoshuiping  shihengliangyigeqiyewanqiangshengminglidebiaoxian piaoliangderenzongshiqizhitebiehao  zhenggekongqidoushi
-     xiangde jintianzhanqilai youyifenguangbianfayifenre 
+*/
+/* body{
+  color: #ff0000;
+  color:#cc33ff;
+  color:#33ff33;
+  color:#ff0000;
 } */
 </style>
